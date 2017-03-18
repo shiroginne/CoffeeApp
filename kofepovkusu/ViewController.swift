@@ -8,7 +8,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
+    var cars = ["BMW", "Ford", "Volvo", "Mazda"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +21,24 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    // MARK: - Table view data source
+
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return cars.count
+    }
+
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "coffeeCell", for: indexPath)
+
+        cell.textLabel?.text = cars[indexPath.row]
+        cell.detailTextLabel?.text = "=^_^="
+
+        return cell
+    }
 
 }
 
