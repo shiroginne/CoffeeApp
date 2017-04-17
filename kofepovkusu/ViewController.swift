@@ -13,8 +13,6 @@ class ViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.tableView.contentInset.top = 20
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
@@ -40,6 +38,17 @@ class ViewController: UITableViewController {
         cell.detailTextLabel?.text = currentCoffee["description"]
 
         return cell
+    }
+
+    // MARK: - Navigation
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "coffeeDetailsSegue" {
+            let viewController = segue.destination as! DetailsViewController
+            if let currentRow = self.tableView.indexPathForSelectedRow?.row {
+                viewController.currentCoffee = currentRow
+            }
+        }
     }
 
 }
