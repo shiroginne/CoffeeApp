@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5143ECAF1E86AF2900116A9A /* FakeDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5143ECAE1E86AF2900116A9A /* FakeDB.swift */; };
+		5143ECB01E86BF2F00116A9A /* coffee_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 5143ECAD1E86AD6600116A9A /* coffee_list.json */; };
 		51CD1BEC1E7D4B9700014189 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CD1BEB1E7D4B9700014189 /* AppDelegate.swift */; };
 		51CD1BEE1E7D4B9700014189 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CD1BED1E7D4B9700014189 /* ViewController.swift */; };
 		51CD1BF11E7D4B9700014189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51CD1BEF1E7D4B9700014189 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5143ECAD1E86AD6600116A9A /* coffee_list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = coffee_list.json; sourceTree = "<group>"; };
+		5143ECAE1E86AF2900116A9A /* FakeDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeDB.swift; sourceTree = "<group>"; };
 		51CD1BE81E7D4B9700014189 /* kofepovkusu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kofepovkusu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CD1BEB1E7D4B9700014189 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51CD1BED1E7D4B9700014189 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5143ECAC1E86AD4800116A9A /* data */ = {
+			isa = PBXGroup;
+			children = (
+				5143ECAD1E86AD6600116A9A /* coffee_list.json */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
 		51CD1BDF1E7D4B9700014189 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +66,10 @@
 		51CD1BEA1E7D4B9700014189 /* kofepovkusu */ = {
 			isa = PBXGroup;
 			children = (
+				5143ECAC1E86AD4800116A9A /* data */,
 				51CD1BEB1E7D4B9700014189 /* AppDelegate.swift */,
 				51CD1BED1E7D4B9700014189 /* ViewController.swift */,
+				5143ECAE1E86AF2900116A9A /* FakeDB.swift */,
 				51CD1BEF1E7D4B9700014189 /* Main.storyboard */,
 				51CD1BF21E7D4B9700014189 /* Assets.xcassets */,
 				51CD1BF41E7D4B9700014189 /* LaunchScreen.storyboard */,
@@ -126,6 +140,7 @@
 				51CD1BF61E7D4B9700014189 /* LaunchScreen.storyboard in Resources */,
 				51CD1BF31E7D4B9700014189 /* Assets.xcassets in Resources */,
 				51CD1BF11E7D4B9700014189 /* Main.storyboard in Resources */,
+				5143ECB01E86BF2F00116A9A /* coffee_list.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +153,7 @@
 			files = (
 				51CD1BEE1E7D4B9700014189 /* ViewController.swift in Sources */,
 				51CD1BEC1E7D4B9700014189 /* AppDelegate.swift in Sources */,
+				5143ECAF1E86AF2900116A9A /* FakeDB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +313,7 @@
 				51CD1BFC1E7D4B9700014189 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
