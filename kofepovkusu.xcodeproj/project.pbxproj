@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		510B16B21EE58C4F00EA9A94 /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510B16B11EE58C4F00EA9A94 /* ConfirmationViewController.swift */; };
 		5143ECAF1E86AF2900116A9A /* FakeDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5143ECAE1E86AF2900116A9A /* FakeDB.swift */; };
 		5143ECB01E86BF2F00116A9A /* coffee_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 5143ECAD1E86AD6600116A9A /* coffee_list.json */; };
 		514BA1471EA50135004F3FCA /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514BA1461EA50135004F3FCA /* DetailsViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		510B16B11EE58C4F00EA9A94 /* ConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationViewController.swift; sourceTree = "<group>"; };
 		5143ECAD1E86AD6600116A9A /* coffee_list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = coffee_list.json; sourceTree = "<group>"; };
 		5143ECAE1E86AF2900116A9A /* FakeDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeDB.swift; sourceTree = "<group>"; };
 		514BA1461EA50135004F3FCA /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				51CD1BEB1E7D4B9700014189 /* AppDelegate.swift */,
 				51CD1BED1E7D4B9700014189 /* ViewController.swift */,
 				514BA1461EA50135004F3FCA /* DetailsViewController.swift */,
+				510B16B11EE58C4F00EA9A94 /* ConfirmationViewController.swift */,
 				5143ECAE1E86AF2900116A9A /* FakeDB.swift */,
 				51CD1BEF1E7D4B9700014189 /* Main.storyboard */,
 				51CD1BF21E7D4B9700014189 /* Assets.xcassets */,
@@ -158,6 +161,7 @@
 				51CD1BEC1E7D4B9700014189 /* AppDelegate.swift in Sources */,
 				5143ECAF1E86AF2900116A9A /* FakeDB.swift in Sources */,
 				514BA1471EA50135004F3FCA /* DetailsViewController.swift in Sources */,
+				510B16B21EE58C4F00EA9A94 /* ConfirmationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

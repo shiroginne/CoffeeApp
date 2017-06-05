@@ -28,11 +28,13 @@ class FakeDB {
                     for coffee in coffeeJson {
                         if let coffeeName = coffee["name"] as? String,
                             let coffeDescription = coffee["description"] as? String,
-                            let coffeFullDescription = coffee["full_description"] as? String {
+                            let coffeFullDescription = coffee["full_description"] as? String,
+                            let coffeeCountry = coffee["country"] as? String {
                             let coffee = [
                                 "name": coffeeName,
                                 "description": coffeDescription,
-                                "full_description": coffeFullDescription
+                                "full_description": coffeFullDescription,
+                                "country": coffeeCountry
                             ]
                             coffeeList.append(coffee)
                         }
